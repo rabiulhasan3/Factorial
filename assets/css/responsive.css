@@ -1,0 +1,86 @@
+/* Medium Layout :  1280px */
+@media only screen and (min-width : 992px) and (max-width: 1200px){
+	body{
+		overflow-x: hidden;
+	}
+	.single-slide-item h2{
+		font-size: 50px;
+	}
+	.header-top-area {
+		font-size: 13px;
+	}
+
+.single-testimonial-item {
+    padding: 0px 5px;
+}
+.single-boxed-item h4 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+.factorial-cta-area,.factorial-cta-area .text-right{
+	text-align: center;
+}
+.factorian-cta-area .cta-btn{
+	margin-top: 15px;
+}
+.we-are-text-area{
+	padding: 20px 0;
+}
+.padding-left-30{
+	margin-top: 30px;
+}
+.footer-wid{
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+.footer-top-area{
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+}
+
+
+
+/* Tablet Layout :  768px */
+@media only screen and (min-width : 720px) and (max-width: 991px){
+	.header-top-area{
+		text-align: center;
+	}
+	.header-top-area .text-right{
+		text-align: center!important;
+	}
+	.header-text-area,.header-text-area .text-right ,.logo,.mainmenu ul{
+		text-align: center;
+	}
+	.mainmenu ul li a{
+		padding: 10px 20px;
+	}
+	.mainmenu li ul{
+		top: 80px;
+	}
+	.mainmenu li:hover ul{
+		top :48px;
+	}
+	.single-slide-item h2{
+		font-size: 48px;
+	}
+	.single-slide-item{
+		font-size: 17px;
+		text-align: center;
+	}
+
+
+}
+
+
+/* Wide Mobile Layout :  480px */
+@media only screen and (min-width:480px) and (max-width:767px){
+	
+}
+
+
+/* Mobile Layout :  320px */
+@media only screen and (max-width : 479px){
+	
+}
